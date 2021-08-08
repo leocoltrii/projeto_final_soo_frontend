@@ -1,0 +1,44 @@
+.paper-background{
+    background: linear-gradient(180deg, #9441FF 71.35%, rgba(255, 65, 202, 0.5) 100%);
+    box-shadow: 0px 15px 55px rgba(18, 45, 116, 0.2);
+    border-radius: 15px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    height: 100%;
+    width: 100%;
+}
+
+.button-block#entrarbtn, .button-block#voltarbtn{
+    width: 100%;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    background: #FD8399;
+    box-shadow: 0px 20px 25px rgba(16, 50, 136, 0.5);
+    border-radius: 15px;
+}
+
+.button-block#entrarbtn:hover{
+    background-color: #FD8399;
+}
+
+.text-field#emailfield, .text-field#passwordfield{
+    width: 100%; 
+    color: #fff;
+}
+
+.forgot-password{
+    font-size: 17px;
+    color: rgb(92, 97, 97);
+}
+    
+.forgot-password:hover{
+    color:#131212;
+    cursor: pointer;
+}
+    
